@@ -22,12 +22,11 @@ end
 
 def full?(board)
   board.each do |position|
-    if position == "x" || position == "O"
-      true
-    else
-      false 
+    if position == " "
+      return false
     end
   end
+  true
 end
 
 # def draw?(board)
