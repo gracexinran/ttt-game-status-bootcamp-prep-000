@@ -19,3 +19,9 @@ def won?(board)
   end
   return nil
 end
+
+def full?
+  if draw?
+    true 
+  else 
+    f
