@@ -21,7 +21,7 @@ def won?(board)
 end
 
 def full?(board)
-  if draw?
+  if draw?(board)
     true 
   else 
     false 
