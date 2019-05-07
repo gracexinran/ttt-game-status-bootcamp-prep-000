@@ -34,4 +34,4 @@ def draw?(board)
     true : false 
 end 
 
-def 
+def over?()
