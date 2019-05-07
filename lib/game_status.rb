@@ -21,10 +21,12 @@ def won?(board)
 end
 
 def full?(board)
-  if draw?(board)
-    true 
-  else 
-    false 
+  board.each do |position|
+    if position == "x" || position == "O"
+      true
+    else
+      false 
+    end
   end
 end
 
