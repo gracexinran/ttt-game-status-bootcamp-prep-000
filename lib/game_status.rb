@@ -45,8 +45,11 @@ def winner(board)
     index_2 = win[1]
     index_3 = win[2]
     if board[index_1] == "X" && board[index_2] == "X" && board[index_3] == "X"
-      return 
+      return "x"
     elsif board[index_1] == "O" && board[index_2] == "O" && board[index_3] == "O"
-      return win
+      return "O"
     end
+  end
+  return "nil"
+end
   
