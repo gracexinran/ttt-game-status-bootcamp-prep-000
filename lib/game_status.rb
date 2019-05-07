@@ -24,4 +24,6 @@ def full?
   if draw?
     true 
   else 
-    f
+    false 
+  end
+end
