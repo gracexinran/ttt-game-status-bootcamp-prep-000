@@ -20,7 +20,7 @@ def won?(board)
   return nil
 end
 
-def full?
+def full?(board)
   if draw?
     true 
   else 
